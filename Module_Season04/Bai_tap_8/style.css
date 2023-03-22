@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    outline: 10px  solid red;
+}

@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    background-image: url("./images/Monley.webp");
+    background-size: cover;
+    position: relative;
+    background-position-y: center;
+
+}
+.text{
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    filter: blur(4px);
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 256px;
+    color: red;
+    background-color: rgba(240, 248, 255, 0.741);
+   
+    
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.auto{
+    width: 135px;
+    height: 36px;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 24px;
+    border-radius: 9px;
+   
+}
+.text{
+    position: absolute;
+    bottom: 30px;
+    left: 24px;
+}
+h2{
+    line-height: 1.8;
+    font-size: 33px;
+    color: #fff;
+}
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #999;
+}
